@@ -1,0 +1,185 @@
+:root {
+  --accent-color: #404bbf;
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-navy-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --iris-text-color: #4d5ae5;
+  --primary-white-color: #fff;
+  --cloud-color: #f4f4fd;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--primary-navy-color);
+  background-color: var(--primary-white-color);
+}
+/* -----------------------------------COMPONENTS----------------------------------- */
+.section-title {
+  color: var(--primary-text-color);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  color: var(--primary-navy-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.description-text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.page-footer .description-text {
+  color: var(--cloud-color);
+}
+
+.page-footer .logo-link {
+  color: var(--cloud-color);
+}
+
+.page-footer {
+  background-color: var(--primary-navy-color);
+}
+/* -----------------------------------/COMPONENTS----------------------------------- */
+/*-------------------------------------- HEADER-----------------------------------  */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.logo-link {
+  color: var(--secondary-text-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.text-logo {
+  color: var(--iris-text-color);
+}
+
+.page-nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.menu-link {
+  color: var(--secondary-text-color);
+}
+
+.address-list {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.contact-email-link,
+.contact-phone-link {
+  color: var(--primary-navy-color);
+}
+
+.contact-email-link:hover,
+.contact-email-link:focus,
+.contact-phone-link:hover,
+.contact-phone-link:focus {
+  color: var(--accent-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+/*-------------------------------------- /HEADER-----------------------------------  */
+
+/* ---------------------------------------HERO------------------------------------ */
+.hero {
+  background-color: var(--primary-navy-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.modal-btn {
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  background-color: var(--iris-text-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--primary-white-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+}
+
+.team {
+  background-color: var(--cloud-color);
+}
+
+/*--------------------------------------- /HERO----------------------------------------- */
+/* ======================================/INDEX.HTML============================= */
+/* ======================================PORTFOLIO.HTML============================= */
+.filter-btn {
+  border-radius: 4px;
+  border: #e7e9fc;
+  background: var(--cloud-color);
+  color: var(--iris-text-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  border-radius: 4px;
+  background: var(--accent-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+/* ======================================/PORTFOLIO.HTML============================= */
