@@ -159,7 +159,6 @@ body {
 /* ======================================PORTFOLIO.HTML============================= */
 .filter-btn {
   font-family: 'Roboto', sans-serif;
-  border: #e7e9fc;
   background: var(--cloud-color);
   color: var(--iris-text-color);
   text-align: center;
