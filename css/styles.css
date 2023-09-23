@@ -129,7 +129,6 @@ body {
 
 .modal-btn {
   font-family: 'Roboto', sans-serif;
-  border-radius: 4px;
   background-color: var(--iris-text-color);
   color: var(--primary-white-color);
   font-size: 16px;
@@ -160,7 +159,6 @@ body {
 /* ======================================PORTFOLIO.HTML============================= */
 .filter-btn {
   font-family: 'Roboto', sans-serif;
-  border-radius: 4px;
   border: #e7e9fc;
   background: var(--cloud-color);
   color: var(--iris-text-color);
@@ -174,13 +172,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  border-radius: 4px;
   background: var(--accent-color);
   color: var(--primary-white-color);
-  text-align: center;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.64px;
 }
 /* ======================================/PORTFOLIO.HTML============================= */
